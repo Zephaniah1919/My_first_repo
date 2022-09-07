@@ -15,7 +15,7 @@ public class HomeController {
 	
 	@RequestMapping("/content")
 	public String method2() {
-		System.out.println("Going to index.jsp page, Called from method2");
+		System.out.println("Going to index.jsp , Called from method2");
 		return "display";
 	}
 	
